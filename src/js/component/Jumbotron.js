@@ -9,7 +9,7 @@ export default function Jumbotron() {
 		<div className="text-center mt-5">
 			Jumbotron
 			<div className="jumbotron jumbotron-fluid">
-				<div className="container">
+				<div className="container transbox mx-auto">
 					<h1 className="display-4">Fluid jumbotron</h1>
 					<p className="lead">
 						This is a modified jumbotron that occupies the entire

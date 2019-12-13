@@ -7,10 +7,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export default function Nav() {
 	return (
 		<div className="text-center mt-5">
-			Nav
 			<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 				<a className="navbar-brand" href="#">
-					Fixed navbar
+					The Delightful Panda
 				</a>
 				<button
 					className="navbar-toggler"
@@ -26,12 +25,13 @@ export default function Nav() {
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
-								Home <span className="sr-only">(current)</span>
+								Panda's{" "}
+								<span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Link
+								Pancakes
 							</a>
 						</li>
 						<li className="nav-item">

@@ -25,22 +25,23 @@ export default function Nav() {
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
-								Panda's{" "}
+								About Us{" "}
 								<span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Pancakes
+								Profile's
 							</a>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link disabled"
-								href="#"
-								tabIndex={-1}
-								aria-disabled="true">
-								Disabled
+							<a className="nav-link" href="#">
+								Our Work
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#">
+								Contact Us
 							</a>
 						</li>
 					</ul>

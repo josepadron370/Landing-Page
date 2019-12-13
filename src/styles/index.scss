@@ -12,18 +12,19 @@
 
 */
 
-.jumbotron {
+// .jumbotron {
 
-    background-image: url("http://3.bp.blogspot.com/-lJZ0jO_PO8M/TiSEgS_HiEI/AAAAAAAAAjw/GzhqopIlDWY/s400/Panda%2Bnewer.jpg");
-    background-color: #cccccc;
-}
+//     background-image: url("http://3.bp.blogspot.com/-lJZ0jO_PO8M/TiSEgS_HiEI/AAAAAAAAAjw/GzhqopIlDWY/s400/Panda%2Bnewer.jpg");
+//     background-color: none;
+// }
 
 
 div.transbox {
   margin: 30px;
-  background-color: #dabc3a;
+  padding: 15px;
+  background-color: #f1f8ac;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 1.0;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 

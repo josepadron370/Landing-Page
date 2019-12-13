@@ -8,14 +8,10 @@ export default function ContactUs() {
 	return (
 		<>
 			<div className="text-center mt-5">
-				Contact us
+				{/* Contact us */}
 				<div className="jumbotron">
-					<h1 className="display-4">Contact Us!</h1>
-					<p className="lead">
-						This is a simple hero unit, a simple jumbotron-style
-						component for calling extra attention to featured
-						content or information.
-					</p>
+					<h1 className="display-4">Got any questions?</h1>
+					{/* <p className="lead">Feel free to reach out to us.</p> */}
 					<hr className="my-4" />
 					<p>
 						{/* It uses utility classes for typography and spacing to
@@ -47,9 +43,9 @@ export default function ContactUs() {
 						<div className="modal-content">
 							<div className="modal-header">
 								<h5
-									className="modal-title"
+									className="modal-title w-100 text-center"
 									id="exampleModalCenterTitle">
-									Modal title
+									Contact Us
 								</h5>
 								<button
 									type="button"
@@ -59,18 +55,80 @@ export default function ContactUs() {
 									<span aria-hidden="true">×</span>
 								</button>
 							</div>
-							<div className="modal-body">...</div>
+							<div className="modal-body">
+								<form>
+									<div className="form-group">
+										<label htmlFor="formGroupExampleInput">
+											Full Name:
+										</label>
+										<input
+											type="text"
+											className="form-control"
+											id="formGroupExampleInput"
+											placeholder="John Appleseed"
+										/>
+									</div>
+									<div className="form-group">
+										<label htmlFor="formGroupExampleInput2">
+											Phone Number:
+										</label>
+										<input
+											type="text"
+											className="form-control"
+											id="formGroupExampleInput2"
+											placeholder="(123) 456-7890"
+										/>
+									</div>
+								</form>
+								<form>
+									<div className="form-group">
+										<label htmlFor="formGroupExampleInput">
+											Email:
+										</label>
+										<input
+											type="text"
+											className="form-control"
+											id="formGroupExampleInput"
+											placeholder="johnappleseed@email.com"
+										/>
+									</div>
+									<div className="form-group">
+										<label htmlFor="exampleFormControlTextarea1">
+											Message:
+										</label>
+										<textarea
+											className="form-control"
+											placeholder="Additional Notes"
+											id="exampleFormControlTextarea1"
+											rows={3}
+											defaultValue={""}
+										/>
+									</div>
+
+									{/* <div className="form-group">
+										<label htmlFor="formGroupExampleInput2">
+											Additional Notes:
+										</label>
+										<input
+											type="text"
+											className="form-control"
+											id="formGroupExampleInput2"
+											placeholder="Message"
+										/>
+									</div> */}
+								</form>
+							</div>
 							<div className="modal-footer">
 								<button
 									type="button"
 									className="btn btn-secondary"
 									data-dismiss="modal">
-									Close
+									Cancel
 								</button>
 								<button
 									type="button"
 									className="btn btn-primary">
-									Save changes
+									Contact
 								</button>
 							</div>
 						</div>

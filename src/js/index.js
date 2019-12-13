@@ -9,7 +9,12 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
+import { Home } from "./component/Home.js";
+// import { CardDeck } from "./component/CardDeck";
+// import { CardDeck } from "./component/CardDeck.js";
+// import { ContactUs } from "./component/ContactUs.js";
+// import { Jumbotron } from "./component/Jumbotron.js";
+// import { Carousel } from "./component/Carousel.js";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));

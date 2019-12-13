@@ -18,8 +18,8 @@ export default function ContactUs() {
 					</p>
 					<hr className="my-4" />
 					<p>
-						It uses utility classes for typography and spacing to
-						space content out within the larger container.
+						{/* It uses utility classes for typography and spacing to
+						space content out within the larger container. */}
 					</p>
 					<button
 						type="button"
@@ -33,14 +33,6 @@ export default function ContactUs() {
 				</div>
 			</div>
 			<div>
-				{/* Button trigger modal */}
-				<button
-					type="button"
-					className="btn btn-primary"
-					data-toggle="modal"
-					data-target="#exampleModalCenter">
-					Launch demo modal
-				</button>
 				{/* Modal */}
 				<div
 					className="modal fade"

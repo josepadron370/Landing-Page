@@ -12,19 +12,22 @@
 
 */
 
-// .jumbotron {
+.jumbotron {
 
 //     background-image: url("http://3.bp.blogspot.com/-lJZ0jO_PO8M/TiSEgS_HiEI/AAAAAAAAAjw/GzhqopIlDWY/s400/Panda%2Bnewer.jpg");
-//     background-color: none;
-// }
+    background-color: white;
+}
 
 
 div.transbox {
   margin: 30px;
   padding: 15px;
-  background-color: #f1f8ac;
+  background-image: url("https://image.freepik.com/free-photo/texture-background_1404-62.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border: 1px solid black;
-  opacity: 1.0;
+  opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
@@ -35,3 +38,6 @@ div.transbox p {
 }
 
     
+.socialMediaLinks {
+    color: white;
+}

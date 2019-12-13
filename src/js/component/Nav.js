@@ -25,38 +25,32 @@ export default function Nav() {
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
-								Panda's{" "}
+								About Us{" "}
 								<span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Pancakes
+								Profile's
 							</a>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link disabled"
-								href="#"
-								tabIndex={-1}
-								aria-disabled="true">
-								Disabled
+							<a className="nav-link" href="#">
+								Our Work
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#">
+								Contact Us
 							</a>
 						</li>
 					</ul>
-					<form className="form-inline mt-2 mt-md-0">
-						<input
-							className="form-control mr-sm-2"
-							type="text"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button
-							className="btn btn-outline-success my-2 my-sm-0"
-							type="submit">
-							Search
-						</button>
-					</form>
+					<div className="socialMediaLinks">
+						<i className="fab fa-instagram" />
+						<i className="fab fa-twitter" />
+						<i className="fab fa-facebook" />
+						<i className="fas fa-share-alt" />
+					</div>
 				</div>
 			</nav>
 		</div>

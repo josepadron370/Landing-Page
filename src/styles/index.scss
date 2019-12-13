@@ -11,3 +11,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.jumbotron {
+
+    background-image: url("http://3.bp.blogspot.com/-lJZ0jO_PO8M/TiSEgS_HiEI/AAAAAAAAAjw/GzhqopIlDWY/s400/Panda%2Bnewer.jpg");
+    background-color: #cccccc;
+}
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #dabc3a;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}

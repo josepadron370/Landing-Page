@@ -5,7 +5,7 @@ export default function CardDeck() {
 	let people = [
 		{ picture: "image1.jpg", name: "Antuan", info: "info about Antuan" },
 		{ picture: "image2.jpg", name: "jose", info: "info about Jose" },
-		{ picture: "image.jpg", name: "Evette", info: "info about Evette" }
+		{ picture: "image.jpg", name: "Ivette", info: "info about Ivette" }
 	];
 
 	return (

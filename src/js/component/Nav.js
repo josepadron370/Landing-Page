@@ -31,7 +31,7 @@ export default function Nav() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#profiles">
-								Profile's
+								Profiles
 							</a>
 						</li>
 						<li className="nav-item">

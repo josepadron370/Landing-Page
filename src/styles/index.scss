@@ -57,6 +57,17 @@ background-image: url("https://images.pexels.com/photos/639110/pexels-photo-6391
     height: 400px;
 }
 
+.contactUs {
+    font-family: 'Fjalla One', sans-serif;
+    opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+    background-color: rgba(150, 151, 144, 0.856);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+}
+
 .socialMedia {
     padding-left: 5px;
     padding-right: 5px;

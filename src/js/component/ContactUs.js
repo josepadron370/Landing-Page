@@ -9,7 +9,7 @@ export default function ContactUs() {
 		<>
 			<div className="text-center mt-5">
 				{/* Contact us */}
-				<div className="jumbotron" id="contactUs">
+				<div className="jumbotron contactUs" id="contactUs">
 					<h1 className="display-4">Got any questions?</h1>
 					{/* <p className="lead">Feel free to reach out to us.</p> */}
 					<hr className="my-4" />

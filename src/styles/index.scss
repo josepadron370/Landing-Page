@@ -14,7 +14,7 @@
 body, html {
   height: 100%;
 //   background-image: url("https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg");
-background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-background-wallpaper.jpg");
+background-image: url("https://images.pexels.com/photos/639110/pexels-photo-639110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -35,16 +35,19 @@ background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-backgro
     font-family: 'Courier Prime', monospace;
 
 }
+.emptyDiv {
+    height: 150px;
+}
 
 .aboutUs {
     font-family: 'Fjalla One', sans-serif;
     opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
-    background-color: rgba(203, 238, 4, 0.856);
+    background-color: rgba(150, 151, 144, 0.856);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    height: 400px;
 }
 
 .socialMedia {

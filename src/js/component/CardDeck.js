@@ -32,6 +32,7 @@ export default function CardDeck() {
 					);
 				})}
 			</div>
+			<div className="emptyDiv" />
 		</>
 	);
 }

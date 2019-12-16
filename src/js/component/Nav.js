@@ -48,10 +48,18 @@ export default function Nav() {
 						</li>
 					</ul>
 					<div className="socialMediaLinks">
-						<i className="fab fa-instagram" />
-						<i className="fab fa-twitter" />
-						<i className="fab fa-facebook" />
-						<i className="fas fa-share-alt" />
+						<span className="socialMedia">
+							<i className="fab fa-instagram" />
+						</span>
+						<span className="socialMedia">
+							<i className="fab fa-twitter" />
+						</span>
+						<span className="socialMedia">
+							<i className="fab fa-facebook" />
+						</span>
+						<span className="socialMedia">
+							<i className="fas fa-share-alt" />
+						</span>
 					</div>
 				</div>
 			</nav>

@@ -8,17 +8,21 @@ export default function Image() {
 	return (
 		<div
 			id="carouselExampleInterval"
-			className="carousel slide"
+			className="carousel slide videoCarousel"
 			data-ride="carousel">
 			<div className="carousel-inner">
-				<div className="carousel-item active" data-interval={10000}>
+				<div
+					className="carousel-item active align-center"
+					data-interval={10000}>
 					<video width="100%" height="auto" controls>
 						<source src="movie.mp4" type="video/mp4" />
 						<source src="movie.ogg" type="video/ogg" />
 						Your browser does not support the video tag.
 					</video>
 				</div>
-				<div className="carousel-item" data-interval={2000}>
+				<div
+					className="carousel-item align-center"
+					data-interval={2000}>
 					<video width="100%" height="auto" controls>
 						<source src="movie.mp4" type="video/mp4" />
 						<source src="movie.ogg" type="video/ogg" />

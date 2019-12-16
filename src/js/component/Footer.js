@@ -10,9 +10,23 @@ export default function Footer() {
 			Footer
 			<footer className="footer mt-auto py-3">
 				<div className="container">
-					<span className="text-muted">
+					{/* <span className="text-muted">
 						Place sticky footer content here.
-					</span>
+                    </span> */}
+					<div className="socialMediaLinks">
+						<span className="socialMedia">
+							<i className="fab fa-instagram" />
+						</span>
+						<span className="socialMedia">
+							<i className="fab fa-twitter" />
+						</span>
+						<span className="socialMedia">
+							<i className="fab fa-facebook" />
+						</span>
+						<span className="socialMedia">
+							<i className="fas fa-share-alt" />
+						</span>
+					</div>
 				</div>
 			</footer>
 		</div>

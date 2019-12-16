@@ -13,11 +13,22 @@
 */
 body, html {
   height: 100%;
+//   background-image: url("https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg");
+background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-background-wallpaper.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // .parallax {
 //   /* The image used */
-//   background-image: url("img_parallax.jpg");
+//   background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-background-wallpaper.jpg");
 
 //   /* Set a specific height */
 //   min-height: 500px; 
@@ -28,23 +39,40 @@ body, html {
 //   background-repeat: no-repeat;
 //   background-size: cover;
 // }
-
-
-.jumbotron {
-
-//     background-image: url("http://3.bp.blogspot.com/-lJZ0jO_PO8M/TiSEgS_HiEI/AAAAAAAAAjw/GzhqopIlDWY/s400/Panda%2Bnewer.jpg");
-    background-color: white;
+.navbar {
+    background-image: url("https://cdn7.dissolve.com/p/D2115_139_081/D2115_139_081_1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 50px;
+}
+// .imageHead {
+//     background-image: url("https://images.all-free-download.com/images/graphicthumb/christmas_snowflake_background_of_highdefinition_picture_3_169740.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//     height: 50px;
+// }
+.aboutUs {
+    opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+    background-color: rgba(203, 238, 4, 0.856);
+    // background-image: url("https://cdn7.dissolve.com/p/D2115_139_081/D2115_139_081_1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   // background-color: white;
 }
 
 
 div.transbox {
-  margin: 30px;
-  padding: 15px;
-  background-image: url("https://image.freepik.com/free-photo/texture-background_1404-62.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid black;
+//   margin: 30px;
+//   padding: 15px;
+//   background-color: adjust-color($color: #0e0d0d, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   border: 1px solid black;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
@@ -58,4 +86,5 @@ div.transbox p {
     
 .socialMediaLinks {
     color: white;
+    padding: 15px;
 }

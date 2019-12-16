@@ -24,23 +24,25 @@ export default function Nav() {
 				<div className="collapse navbar-collapse" id="navbarCollapse">
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#aboutUs">
 								About Us{" "}
 								<span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#profiles">
 								Profile's
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a
+								className="nav-link"
+								href="#carouselExampleIndicators">
 								Our Work
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#contactUs">
 								Contact Us
 							</a>
 						</li>

@@ -10,7 +10,7 @@ export default function CardDeck() {
 
 	return (
 		<>
-			<div className="card-deck">
+			<div className="card-deck" id="profiles">
 				{people.map((makecards, index) => {
 					return (
 						<div key={index} className="card">

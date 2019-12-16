@@ -2,6 +2,7 @@ import React from "react";
 
 import Nav from "./Nav";
 import Jumbotron from "./Jumbotron";
+import Image from "./Image";
 import CardDeck from "./CardDeck";
 import Carousel from "./Carousel";
 import ContactUs from "./ContactUs";
@@ -15,6 +16,7 @@ export function Home() {
 	return (
 		<>
 			<Nav />
+			{/* <Image /> */}
 			<Jumbotron />
 			<CardDeck />
 			<Carousel />

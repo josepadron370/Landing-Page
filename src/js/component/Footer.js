@@ -7,13 +7,13 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export default function Footer() {
 	return (
 		<div className="text-center mt-5">
-			Footer
+			{/* Footer */}
 			<footer className="footer mt-auto py-3">
 				<div className="container">
 					{/* <span className="text-muted">
 						Place sticky footer content here.
                     </span> */}
-					<div className="socialMediaLinks">
+					<div className="socialMediaLinksFooter">
 						<span className="socialMedia">
 							<i className="fab fa-instagram" />
 						</span>

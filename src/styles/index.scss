@@ -24,58 +24,35 @@ background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-backgro
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
-// .parallax {
-//   /* The image used */
-//   background-image: url("https://www.cedricat.cat/pics/b/13/136984_holiday-background-wallpaper.jpg");
-
-//   /* Set a specific height */
-//   min-height: 500px; 
-
-//   /* Create the parallax scrolling effect */
-//   background-attachment: fixed;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
 .navbar {
-    background-image: url("https://cdn7.dissolve.com/p/D2115_139_081/D2115_139_081_1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    // height: 50px;
-}
-// .imageHead {
-//     background-image: url("https://images.all-free-download.com/images/graphicthumb/christmas_snowflake_background_of_highdefinition_picture_3_169740.jpg");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
-//     height: 50px;
-// }
-.aboutUs {
-    opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-    background-color: rgba(203, 238, 4, 0.856);
     // background-image: url("https://cdn7.dissolve.com/p/D2115_139_081/D2115_139_081_1200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   // background-color: white;
+    font-family: 'Courier Prime', monospace;
+
 }
 
-
-div.transbox {
-//   margin: 30px;
-//   padding: 15px;
-//   background-color: adjust-color($color: #0e0d0d, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   border: 1px solid black;
-  opacity: 0.6;
+.aboutUs {
+    font-family: 'Fjalla One', sans-serif;
+    opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+    background-color: rgba(203, 238, 4, 0.856);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
+
+
+
+// div.transbox {
+//   opacity: 0.6;
+//   filter: alpha(opacity=60); /* For IE8 and earlier */
+// }
 
 div.transbox p {
   margin: 5%;
@@ -83,7 +60,7 @@ div.transbox p {
   color: #000000;
 }
 
-    
+
 .socialMediaLinks {
     color: white;
     padding: 15px;

@@ -16,7 +16,7 @@ export function Home() {
 	return (
 		<>
 			<Nav />
-			{/* <Image /> */}
+			<Image />
 			<Jumbotron />
 			<CardDeck />
 			<Carousel />
